@@ -7,4 +7,3 @@ def no_c(my_string):
             modified_string += char
 
     return (modified_string)
-
