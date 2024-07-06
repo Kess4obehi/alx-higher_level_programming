@@ -7,9 +7,9 @@ import urllib.request
 
 if __name__ == "__main__":
     url = sys.argv[1]
-    #define the value to be posted
+    # define the value to be posted
     value = {"email": sys.argv[2]}
-    #encode the value
+    # encode the value
     data = urllib.parse.urlencode(value).encode("ascii")
 
     req = urllib.request.Request(url, data)
